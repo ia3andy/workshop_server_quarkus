@@ -6,7 +6,7 @@ import jakarta.ws.rs.POST;
 import jakarta.ws.rs.Path;
 
 @Path(value = "/v1/VisitedService")
-@RunOnVirtualThread
+//@RunOnVirtualThread
 public class MultiServiceResource {
 
     @POST

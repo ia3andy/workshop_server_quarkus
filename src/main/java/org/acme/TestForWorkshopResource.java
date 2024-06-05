@@ -9,7 +9,7 @@ import jakarta.ws.rs.PathParam;
 import java.util.Random;
 
 @Path(value = "/v1/crawl/")
-@RunOnVirtualThread
+//@RunOnVirtualThread
 public class TestForWorkshopResource {
 
     @Path("{a}/{b}")
